@@ -29,22 +29,24 @@ const ProjectDetailDialog: React.FC<ProjectDetailDialogProps> = ({ project, isOp
 
   return (
     <Dialog open={isOpen} onOpenChange={onClose}>
-      <DialogContent className="sm:max-w-[500px] md:max-w-[700px]">
-        <DialogHeader>
-          <DialogTitle className="text-2xl">{project.title}</DialogTitle>
-          <DialogDescription className="text-sm text-muted-foreground">{project.category}</DialogDescription>
-        </DialogHeader>
-        <div className="my-4">
+      <DialogContent className="sm:max-w-[500px] md:max-w-[700px] lg:max-w-[800px] p-0 overflow-hidden bg-white/95 backdrop-blur-sm">
+        <div className="relative">
           <img 
             src={project.image} 
             alt={project.title} 
-            className="w-full h-auto rounded-md object-cover" 
+            className="w-full h-auto object-contain max-h-[70vh]" 
           />
         </div>
-        <p className="text-foreground">{project.description}</p>
-        <DialogFooter className="mt-4">
-          <Button onClick={onClose}>Close</Button>
-        </DialogFooter>
+        <div className="p-6">
+          <DialogHeader>
+            <DialogTitle className="text-2xl font-bold">{project.title}</DialogTitle>
+            <DialogDescription className="text-sm text-muted-foreground">{project.category}</DialogDescription>
+          </DialogHeader>
+          <p className="my-4 text-foreground">{project.description}</p>
+          <DialogFooter className="mt-4">
+            <Button onClick={onClose}>Close</Button>
+          </DialogFooter>
+        </div>
       </DialogContent>
     </Dialog>
   );
