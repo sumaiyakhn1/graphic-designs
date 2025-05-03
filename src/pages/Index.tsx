@@ -92,13 +92,13 @@ const Index: React.FC = () => {
   };
 
   return (
-    <div className="min-h-screen bg-animation relative overflow-hidden">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 relative overflow-hidden">
       <FloatingShapes />
       
       <div className="container mx-auto px-4 py-8 relative z-10">
         <Header 
-          title="My Design Portfolio" 
-          subtitle="A collection of my graphic design work"
+          title="Design Portfolio" 
+          subtitle="Showcasing creative design work"
         />
         
         <CategoryFilter 
@@ -109,7 +109,7 @@ const Index: React.FC = () => {
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {filteredProjects.map((project) => (
-            <div key={project.id} className="animate-float" style={{ animationDelay: `${project.id * 0.1}s` }}>
+            <div key={project.id} className="animate-fade-in" style={{ animationDelay: `${project.id * 0.1}s` }}>
               <ProjectCard
                 image={project.image}
                 title={project.title}
@@ -134,7 +134,7 @@ const Index: React.FC = () => {
       />
 
       <footer className="mt-16 py-6 text-center text-sm text-muted-foreground relative z-10">
-        <p>© {new Date().getFullYear()} My Design Portfolio. All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Design Portfolio. All rights reserved.</p>
       </footer>
     </div>
   );
