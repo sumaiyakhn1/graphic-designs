@@ -11,58 +11,65 @@ const projectsData = [
   {
     id: 1,
     title: "Elegant Branding",
-    description: "A complete brand identity for a luxury fashion label, including logo design, color palette, typography, and brand guidelines.",
-    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=800",
+    description: "A clean and professional event identity for ONCOSHALA – 3, featuring cohesive colors, bold typography, and clear layout to highlight key oncology summit details.",
+    image: "/images/oncoshala.png",
     category: "Branding"
   },
   {
     id: 2,
     title: "Website Redesign",
-    description: "A modern, responsive website redesign for a beauty company with e-commerce integration and custom illustrations.",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800",
+    description: "A sleek and modern website design for ONCOSHALA–3, crafted to reflect the event’s focus on innovation in oncology with intuitive navigation, cohesive branding, and a professional visual aesthetic.",
+    image: "/images/oncoshala-website.jpg",
     category: "Web Design"
   },
   {
     id: 3,
-    title: "Social Media Campaign",
+    title: "Agenda",
     description: "A series of eye-catching graphics designed for Instagram, Facebook, and Pinterest to promote a new product line.",
-    image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800",
-    category: "Social Media"
+    image: "/images/indusagenda.png",
+    category: "Agenda Poster"
   },
   {
     id: 4,
-    title: "Product Packaging",
-    description: "Custom packaging design for a cosmetic line, featuring delicate illustrations and a soft color palette.",
-    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=800",
-    category: "Packaging"
+    title: "Agenda",
+    description: "A visually organized and elegant agenda design for ONCOSHALA–3, featuring a calming blue theme that enhances readability while aligning with the event’s professional and medical tone.",
+    image: "/images/oncoshalaagenda.png",
+    category: "Agenda Poster"
   },
   {
     id: 5,
-    title: "Magazine Layout",
-    description: "Editorial design for a fashion magazine, featuring custom typography and artistic photo arrangements.",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800",
+    title: "Invitation Poster",
+    description: "A warm and scenic event invite design for Clinzerv’s Team Meeting & Award Night, blending professionalism with a serene Kashmiri backdrop.",
+    image: "/images/8.12.png",
     category: "Print"
   },
   {
     id: 6,
-    title: "App Interface",
-    description: "UI/UX design for a lifestyle mobile application with playful animations and intuitive navigation.",
-    image: "https://images.unsplash.com/photo-1582562124811-c09040d0a901?auto=format&fit=crop&w=800",
-    category: "UI/UX"
+    title: "Certificate",
+    description: "A sophisticated certificate design for Kumaon Cancer Conclave, featuring a refined beige-brown aesthetic that conveys warmth, elegance, and formal recognition.",
+    image: "/images/certificate.png",
+    category: "Print"
   },
   {
     id: 7,
     title: "Event Poster",
-    description: "Vibrant poster design for a music festival, combining typography and illustration.",
-    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?auto=format&fit=crop&w=800", 
+    description: "A visually inviting event poster for Clinzerv’s Team Meeting & Award Night, combining elegance with the tranquil charm of Srinagar.",
+    image: "/images/8.12 (1).png", 
     category: "Print"
   },
   {
     id: 8,
-    title: "Logo Collection",
-    description: "A collection of minimal logo designs for various clients across different industries.",
-    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800",
+    title: "Logo",
+    description: "A bold and symbolic logo for Kumaon Cancer Conclave, featuring a tiger to represent strength, courage, and the fierce fight against cancer.",
+    image: "/images/kumaonlogo.jpg",
     category: "Branding"
+  },
+  {
+    id: 9,
+    title: "Website Redesign",
+    description: "A beautifully crafted website for DreamKnot Creations, showcasing handcrafted carpets and rugs with an elegant layout, earthy tones, and a focus on artisanal detail and storytelling.",
+    image: "/images/dkc.jpg",
+    category: "Web Design"
   }
 ];
 
